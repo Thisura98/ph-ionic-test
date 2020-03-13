@@ -1,3 +1,9 @@
+<!--
+
+    Config file documentation: https://cordova.apache.org/docs/en/latest/config_ref/
+
+-->
+
 <?xml version='1.0' encoding='utf-8'?>
 <widget id="io.ionic.starter" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <name>MyApp</name>
@@ -5,8 +11,10 @@
     <author email="hi@ionicframework.com" href="http://ionicframework.com/">Ionic Framework Team</author>
     <content src="index.html" />
     <access origin="*" />
+    <!-- Shall we try disabling these for android? Maybe airtel didn't add these intents-->
     <allow-intent href="http://*/*" />
     <allow-intent href="https://*/*" />
+    <!-- End: Interesting intents -->
     <allow-intent href="tel:*" />
     <allow-intent href="sms:*" />
     <allow-intent href="mailto:*" />
@@ -45,6 +53,9 @@
         <splash density="port-xxxhdpi" src="resources/android/splash/drawable-port-xxxhdpi-screen.png" />
     </platform>
     <platform name="ios">
+        <!-- New property added by Thisura -->
+        <allow-navigation href="*" />
+        <!-- End: Stuff added by Thisura -->
         <allow-intent href="itms:*" />
         <allow-intent href="itms-apps:*" />
         <icon height="57" src="resources/ios/icon/icon.png" width="57" />
