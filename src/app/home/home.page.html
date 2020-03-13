@@ -1,7 +1,7 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
     <ion-title>
-      Blank
+      PH Test
     </ion-title>
   </ion-toolbar>
 </ion-header>
@@ -14,7 +14,13 @@
   </ion-header>
 
   <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
+    <div><strong>PayHere JS Integration Test</strong></div>
+    <div><ion-button (click)="startPayment()">Start Payment</ion-button></div>
+    <hr>
+    <div><ion-button (click)="blankMode()">Open Window in Blank mode</ion-button></div>
+    <div><ion-button (click)="selfMode()">Open Window in Self mode</ion-button></div>
+    <div><ion-button (click)="systemMode()">Open Window in System mode</ion-button></div>
+
   </div>
+  
 </ion-content>
