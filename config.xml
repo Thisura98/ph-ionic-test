@@ -12,8 +12,8 @@
     <content src="index.html" />
     <access origin="*" />
     <!-- Shall we try disabling these for android? Maybe airtel didn't add these intents-->
-    <allow-intent href="http://*/*" />
-    <allow-intent href="https://*/*" />
+    <!-- <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" /> -->
     <!-- End: Interesting intents -->
     <allow-intent href="tel:*" />
     <allow-intent href="sms:*" />
