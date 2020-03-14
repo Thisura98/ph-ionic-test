@@ -18,7 +18,11 @@
   },
   "server": {
     "allowNavigation": [
-      "www.payhere.lk"
+      "www.payhere.lk",
+      "www.sampathvishwa.com",
+      "apps.genie.lk",
+      "ipg.dialog.lk",
+      "www.ipayamex.lk"
     ]
   }
 }

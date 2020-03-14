@@ -18,7 +18,8 @@
   },
   "server": {
     "allowNavigation": [
-      "payhere.lk"
+      "www.payhere.lk",
+      "*"
     ]
   }
 }
