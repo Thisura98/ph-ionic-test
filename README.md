@@ -37,9 +37,7 @@ ionic serve
 ```
 ionic build
 
-ionic capacitor copy android
-
-ionic cap sync
+ionic cap sync android
 ```
 
 
@@ -49,7 +47,5 @@ ionic cap sync
 ```
 ionic build
 
-ionic capacitor copy ios
-
-ionic cap sync
+ionic cap sync ios
 ```
